@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/app_sinatra_cms_builds.iml" filepath="$PROJECT_DIR$/.idea/app_sinatra_cms_builds.iml" />
+      <module fileurl="file://$PROJECT_DIR$/build.00-migration/hoa_migration/.idea/hoa_migration.iml" filepath="$PROJECT_DIR$/build.00-migration/hoa_migration/.idea/hoa_migration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/listings_migration.iml" filepath="$PROJECT_DIR$/.idea/modules/listings_migration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/users_migration.iml" filepath="$PROJECT_DIR$/.idea/modules/users_migration.iml" />
+    </modules>
+  </component>
+</project>
