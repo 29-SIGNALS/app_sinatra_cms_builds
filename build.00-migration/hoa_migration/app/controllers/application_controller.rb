@@ -16,7 +16,8 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/search' do
-    params
+    @hoas = Hoa.find_by(community: params["community"])
+    erb :results
   end
 
 end
