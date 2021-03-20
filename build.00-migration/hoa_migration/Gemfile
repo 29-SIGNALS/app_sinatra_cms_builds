@@ -2,9 +2,11 @@ source 'http://rubygems.org'
 
 
 gem 'sinatra'
+gem 'bundler'
 gem 'activerecord'
 gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
 gem 'rake'
+gem "faker", "~> 2.17"
 gem 'require_all'
 gem 'sqlite3'
 gem 'thin'
@@ -19,4 +21,6 @@ gem 'capybara'
 gem 'rack-test'
 gem 'database_cleaner', git: 'https://github.com/bmabey/database_cleaner.git'
 gem 'mysql2'
+
+
 

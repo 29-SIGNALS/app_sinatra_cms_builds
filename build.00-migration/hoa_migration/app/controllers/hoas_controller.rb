@@ -2,6 +2,7 @@ class HoasController < ApplicationController
 
   # GET: /hoas
   get "/hoas" do
+    @hoas = Hoa.all
     erb :"/hoas/index.html"
   end
 
@@ -34,4 +35,5 @@ class HoasController < ApplicationController
   delete "/hoas/:id/delete" do
     redirect "/hoas"
   end
+
 end

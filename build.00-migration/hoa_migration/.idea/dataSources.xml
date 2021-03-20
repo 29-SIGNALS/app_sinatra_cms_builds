@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="hoa_migration.sqlite3" uuid="3e523116-2fb5-4b8b-8875-6ce9bd93085d">
+    <data-source source="LOCAL" name="hoa_migration.sqlite3" uuid="2b191b02-2bd2-41fb-965a-dc3b2ec9860e">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/hoa_migration.sqlite3</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hoa_migration@localhost" uuid="e8dcc5e0-fad4-4a58-89e3-0b5ba2e02d88">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/hoa_migration</jdbc-url>
+      <driver-properties>
+        <property name="serverTimezone" value="UTC" />
+      </driver-properties>
     </data-source>
   </component>
 </project>

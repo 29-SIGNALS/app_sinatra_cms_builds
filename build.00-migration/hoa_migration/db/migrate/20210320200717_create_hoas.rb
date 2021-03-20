@@ -1,4 +1,4 @@
-class CreateHoas < ActiveRecord::Migration
+class CreateHoas < ActiveRecord::Migration[6.1]
   def change
     create_table :hoas, if_not_exists: true do |t|
       t.string :contact

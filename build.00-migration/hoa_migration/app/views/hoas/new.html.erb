@@ -1,1 +1,12 @@
-<h1>Insert the form to create a new instance of your model.</h1>
+<h1>Add New HOA</h1>
+
+<section id="page">
+  <form class="form" action="/hoas" method="post">
+    <input type="hidden" name="_method" value="patch">
+    <label for="hoas.contact" class="label-name">Contact Name</label>
+    <input type="text" id="contact" name="hoas[contact]"  />
+
+    <input type="submit" value="Create" class="button" />
+  </form>
+
+</section>

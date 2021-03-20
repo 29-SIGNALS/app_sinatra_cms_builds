@@ -40,6 +40,8 @@ GEM
       database_cleaner-core (~> 2.0.0)
     diff-lcs (1.4.4)
     eventmachine (1.2.7)
+    faker (2.17.0)
+      i18n (>= 1.6, < 2)
     i18n (1.8.9)
       concurrent-ruby (~> 1.0)
     method_source (1.0.0)
@@ -125,8 +127,10 @@ PLATFORMS
 DEPENDENCIES
   activerecord
   bcrypt
+  bundler
   capybara
   database_cleaner!
+  faker (~> 2.17)
   mysql2
   passenger
   pry
