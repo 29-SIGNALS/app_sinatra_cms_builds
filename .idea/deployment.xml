@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" createEmptyFolders="true" remoteFilesAllowedToDisappearOnAutoupload="false" />
+  <component name="PublishConfigData" createEmptyFolders="true" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="twenty9signals">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/app_sinatra_cms_builds" local="$PROJECT_DIR$" web="/app_sinatra_cms_builds" />
+            <mapping deploy="/app_sinatra_cms_builds" local="$PROJECT_DIR$/build.00-migration/users_migration" web="/app_sinatra_cms_builds" />
+            <mapping deploy="/app_sinatra_cms_builds" local="$PROJECT_DIR$/build.00-migration/hoa_migration" web="/app_sinatra_cms_builds" />
+            <mapping deploy="/app_sinatra_cms_builds" local="$PROJECT_DIR$/build.00-migration/listings_migration" web="/app_sinatra_cms_builds" />
+            <mapping deploy="/app_sinatra_cms_builds" local="$PROJECT_DIR$/build.00-migration" web="/app_sinatra_cms_builds" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
 </project>
