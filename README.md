@@ -48,7 +48,7 @@ Doc: https://docs.google.com/document/d/e/2PACX-1vR_jpC1g9arR_SajVFdnWFn5kpAgFiW
     - [x] Setup Root Project Directory with M-V-C Models (HOA's, Listings, Users, Roles)
     - [x] Setup Project build structure (build.00-migrations, build.01-controllers, 
            build.02-models-and-views, build.03-validations, build.04-deployment)
-           Condense this by porting build.00 to build.01/hoas  /listings   /users
+           Condense this by porting build.00 to build.01-MVC-CRUD/hoas  /listings   /users
     - [ ] Creating shared DB app_sinatra_crm_builds 
           (Once schema is complete for each module - combine into one schema for final project)
     - [ ] Create Controllers

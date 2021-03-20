@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" createEmptyFolders="true" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" serverName="twenty9signals" createEmptyFolders="true" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
       <paths name="twenty9signals">
         <serverdata>
           <mappings>
-            <mapping deploy="/app_sinatra_cms_builds" local="$PROJECT_DIR$" web="/app_sinatra_cms_builds" />
-            <mapping deploy="/app_sinatra_cms_builds" local="$PROJECT_DIR$/build.00-migration/users_migration" web="/app_sinatra_cms_builds" />
-            <mapping deploy="/app_sinatra_cms_builds" local="$PROJECT_DIR$/build.00-migration/hoa_migration" web="/app_sinatra_cms_builds" />
-            <mapping deploy="/app_sinatra_cms_builds" local="$PROJECT_DIR$/build.00-migration/listings_migration" web="/app_sinatra_cms_builds" />
-            <mapping deploy="/app_sinatra_cms_builds" local="$PROJECT_DIR$/build.00-migration" web="/app_sinatra_cms_builds" />
+            <mapping deploy="/app_sinatra_cms_builds" local="$PROJECT_DIR$" web="//app_sinatra_cms_builds" />
+            <mapping deploy="/app_sinatra_cms_builds/build.00-migration/users_migration" local="$PROJECT_DIR$/build.00-migration/users_migration" web="/app_sinatra_cms_builds/build.00-migration/users_migration" />
+            <mapping deploy="/app_sinatra_cms_builds/build.00-migration/hoa_migration" local="$PROJECT_DIR$/build.00-migration/hoa_migration" web="/app_sinatra_cms_builds/build.00-migration/hoa_migration" />
+            <mapping deploy="/app_sinatra_cms_builds/build.00-migration/listings_migration" local="$PROJECT_DIR$/build.00-migration/listings_migration" web="/app_sinatra_cms_builds/build.00-migration/listings_migration" />
+            <mapping deploy="/app_sinatra_cms_builds/build.00-migration" local="$PROJECT_DIR$/build.00-migration" web="/app_sinatra_cms_builds/build.00-migration" />
           </mappings>
         </serverdata>
       </paths>

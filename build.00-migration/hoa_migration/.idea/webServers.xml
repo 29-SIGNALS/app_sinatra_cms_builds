@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3aadb2f8-1aea-463e-b918-f22a64ac5c7a" name="twenty9signals.com" url="http://crm.twenty9signals.com:3000/app_sinatra_cms_builds/build.00-migration/hoa_migration">
+        <fileTransfer rootFolder="/home/twenty45/crm.twenty9signals.com/app_sinatra_cms_builds/build.00-migration/hoa_migration" accessType="SFTP" host="twenty9signals.com" port="22" sshConfigId="90936739-08e8-4fc9-aa78-eb0436966b88" sshConfig="twenty45@twenty9signals.com:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+    <groups>
+      <group>
+        <name>inmotion</name>
+        <servers>
+          <name value="twenty9signals.com" />
+        </servers>
+      </group>
+    </groups>
+  </component>
+</project>
